@@ -3,14 +3,14 @@ import { FiMonitor } from "react-icons/fi";
 import { FaRegFileCode } from "react-icons/fa";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { FaChalkboardTeacher } from "react-icons/fa";
-
+import './Banner.css'
 const Services = () => {
     return (
         <div className="md:mt-20 mt-20 w-full">
-            <h3 className="text-secondary text-4xl ">
+            <h3 className="text- text-4xl ">
                 {"<"} Services {"/>"}
             </h3>
-            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5">
+            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase">
                 What I Do for My Clients
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">

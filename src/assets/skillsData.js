@@ -39,10 +39,7 @@ export const skillsData = [
         img: "https://i.ibb.co/1XfsGsF/tailwind.png",
         name: "Tailwind CSS",
     },
-    {
-        img: "https://i.ibb.co/z2T99xR/material.png",
-        name: "Material UI",
-    },
+
     {
         img: "https://i.ibb.co/Y2pYQmj/js.png",
         name: "Javascript",
@@ -79,5 +76,5 @@ export const skillsData = [
         img: "https://i.ibb.co/4SD2Ynn/mongodb.png",
         name: "MongoDB",
     },
-    
+
 ];

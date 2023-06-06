@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import Skeleton from "../Skeleton/Skeleton";
 import Error from "../Error/Error";
 import ProjectCard from "./ProjectCard";
-
+import './Banner.css'
 const Projects = ({ projects, isLoading, isError, error, slice }) => {
     // console.log(projects);
     const [filterOption, setFilterOption] = useState();
@@ -88,7 +88,7 @@ const Projects = ({ projects, isLoading, isError, error, slice }) => {
                 {filteredData?.slice(0, slice).map((project) => {
                     console.log(project);
 
-                    return <ProjectCard project={project}  />;
+                    return <ProjectCard project={project} />;
                 })}
             </div>
         );
@@ -97,10 +97,10 @@ const Projects = ({ projects, isLoading, isError, error, slice }) => {
 
     return (
         <div className="md:mt-20 mt-20 w-full">
-            <h3 className="text-secondary text-4xl ">
+            <h3 className="text- text-4xl ">
                 {"<"} Projects {"/>"}
             </h3>
-            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5">
+            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase">
                 What I Did for my client
             </h1>
 

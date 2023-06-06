@@ -1,14 +1,13 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { SiDatabricks } from "react-icons/si";
+import '../HomePageComponents/Banner.css'
+import { useState } from "react";
 
 const Navigation = () => {
-    const activeStyle = {
-        color: "#00C0FF",
-    };
-
+    const [active, setActive] = useState("Home");
     const navItems = [
         {
             link: "/",
@@ -73,14 +72,14 @@ const Navigation = () => {
                                 const { link, name } = navItem;
                                 return (
                                     <li className="hover:text-secondary mx-auto" key={index}>
-                                        <NavLink
+                                        <Link
                                             to={link}
-                                            style={({ isActive }) =>
-                                                isActive ? activeStyle : undefined
-                                            }
+                                            className={`font-poppins font-normal cursor-pointer text-[16px] ${active === name ? "text-white" : "text-dimWhite"
+                                                } ${index === navItem.length - 1 ? "mr-0" : "mr-10"}`}
+                                            onClick={() => setActive(name)}
                                         >
                                             <span className="text-2xl font-bold">{name}</span>
-                                        </NavLink>
+                                        </Link>
                                     </li>
                                 );
                             })}
@@ -123,7 +122,7 @@ const Navigation = () => {
                             </div>
                         </ul>
                     </div>
-                    <Link to="/" className="cursor-pointer text-xl flex items-end">
+                    <Link to="/" className="cursor-pointer text text-xl flex items-end">
                         <img src="https://i.ibb.co/jHbyW2c/p.png" alt="" className="w-16" />
                         <span className="text-5xl font-bold">ort</span>
                         <span className="text-5xl font-bold text-secondary">folio</span>
@@ -131,18 +130,18 @@ const Navigation = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex items-center">
                     <ul className="menu menu-horizontal px-1 items-center">
-                        {navItems.map((navItem) => {
+                        {navItems.map((navItem, index) => {
                             const { link, name } = navItem;
                             return (
                                 <li className="hover:text-secondary">
-                                    <NavLink
+                                    <Link
                                         to={link}
-                                        style={({ isActive }) =>
-                                            isActive ? activeStyle : undefined
-                                        }
+                                        className={`  ${active === name ? "border-b-4 nav" : "text-dimWhite"
+                                            } ${index === navItem.length - 1 ? "" : ""}`}
+                                        onClick={() => setActive(name)}
                                     >
                                         {name}
-                                    </NavLink>
+                                    </Link>
                                 </li>
                             );
                         })}

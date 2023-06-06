@@ -31,9 +31,9 @@ function App() {
             <ScrollToTop
                 smooth
                 style={{
-                    backgroundColor: "#1E1649",
+                    boxShadow: "0px 5px 10px 0px rgba(0, 255, 255, 0.7 ",
                     borderRadius: "50%",
-                    boxShadow: "none",
+
                     right: 30,
                     bottom: 100,
                     // border:"1px solid #00C0FF"

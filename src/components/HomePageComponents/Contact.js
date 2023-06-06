@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
-
+import './Banner.css'
 const Contact = () => {
     const formRef = useRef();
 
@@ -26,10 +26,10 @@ const Contact = () => {
 
     return (
         <div className="md:mt-20 mt-20 w-full">
-            <h3 className="text-secondary text-4xl ">
+            <h3 className="text- text-4xl ">
                 {"<"} Contact {"/>"}
             </h3>
-            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5">
+            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase">
                 I Want to Hear from You
             </h1>
             <div className="relative flex items-start justify-center sm:items-center mt-10">
