@@ -8,8 +8,8 @@ import ProjectsPage from "../../pages/ProjectsPage";
 import { toast } from 'react-toastify';
 
 const AdminForm = () => {
-    const [project, { data:updatedData, isLoading, error: responseError }] =
-    usePostProjectsMutation();
+    const [project, { data: updatedData, isLoading, error: responseError }] =
+        usePostProjectsMutation();
     const [feature, setFeature] = useState("");
     const allFeatures = useSelector((state) => state.adminSlice);
     const dispatch = useDispatch();
@@ -19,7 +19,7 @@ const AdminForm = () => {
     const clientLinkRef = useRef();
     const serverLinkRef = useRef();
     const typeRef = useRef();
-    
+
 
     const featuresHandler = (e) => {
         // console.log(e)
@@ -68,20 +68,20 @@ const AdminForm = () => {
     };
 
     useEffect(() => {
-        if (updatedData?.status === "Successful"){
-        toast.success("Project posted successfully")
+        if (updatedData?.status === "Successful") {
+            toast.success("Project posted successfully")
         }
-        if (responseError){
-        toast.error(responseError)
+        if (responseError) {
+            toast.error(responseError)
         }
-    },[updatedData?.status, responseError])
+    }, [updatedData?.status, responseError])
 
     return (
         <div>
             <div className="md:max-w-2xl w-full mx-auto bg-none mt-20">
                 <div>
                     <ul className="flex flex-row flex-wrap">
-                        {allFeatures.features.map((feature,index) => (
+                        {allFeatures.features.map((feature, index) => (
                             <li className="badge text-secondary badge-sm p-2 mx-1 rounded-md" key={index}>
                                 {feature}
                             </li>
@@ -100,7 +100,7 @@ const AdminForm = () => {
                             name="features"
                             id="name"
                             placeholder="Features"
-                            className="w-full mt-2 py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                            className="w-full mt-2 py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                         />
                         <button
                             className="btn btn-square btn-outline absolute md:top-3 top-2 md:left-full left-60 h-10/12 md:ml-3"
@@ -121,7 +121,7 @@ const AdminForm = () => {
                             name="name"
                             id="name"
                             placeholder="Name"
-                            className="w-full mt-2 py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                            className="w-full mt-2 py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                             required
                             ref={nameRef}
                         />
@@ -136,7 +136,7 @@ const AdminForm = () => {
                             name="name"
                             id="name"
                             placeholder="img link"
-                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                             required
                             ref={imgRef}
                         />
@@ -151,7 +151,7 @@ const AdminForm = () => {
                             name="name"
                             id="name"
                             placeholder="live site link"
-                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                             required
                             ref={liveLinkRef}
                         />
@@ -166,8 +166,8 @@ const AdminForm = () => {
                             name="name"
                             id="name"
                             placeholder="frontend link"
-                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
-                            
+                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+
                             ref={clientLinkRef}
                         />
                     </div>
@@ -181,8 +181,8 @@ const AdminForm = () => {
                             name="name"
                             id="name"
                             placeholder="server link"
-                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
-                            
+                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+
                             ref={serverLinkRef}
                         />
                     </div>
@@ -196,7 +196,7 @@ const AdminForm = () => {
                             name="name"
                             id="name"
                             placeholder="fullstack/frontend/server/design"
-                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                            className="w-full mt-2 mx-auto py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                             required
                             ref={typeRef}
                         />
@@ -208,7 +208,7 @@ const AdminForm = () => {
                             className="group relative h-10 w-full md:w-40 overflow-hidden rounded-lg bg-white shadow mt-5 px-1 mx-1"
                             type="submit"
                         >
-                            <div className="absolute inset-0 w-1 bg-secondary transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                            <div className="absolute inset-0 w-1 bg-[#07072b] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                             <span className="relative text-primary group-hover:text-white text-lg font-bold">
                                 Submit
                             </span>

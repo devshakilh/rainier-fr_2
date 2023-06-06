@@ -4,7 +4,7 @@ import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
 import Layout from "./pages/Layout";
-import ownImage from "./assets/own.png";
+// import ownImage from "./assets/own.png";
 import "react-whatsapp-chat-widget/index.css";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';

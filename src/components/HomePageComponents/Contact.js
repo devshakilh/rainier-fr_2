@@ -57,7 +57,7 @@ const Contact = () => {
                                         name="name"
                                         id="name"
                                         placeholder="Full Name"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                                         required
                                     />
                                 </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                                         name="email"
                                         id="name"
                                         placeholder="Email"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                                         required
                                     />
                                 </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                                         name="phone"
                                         id="phone"
                                         placeholder="Phone Number"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                                         required
                                     />
                                 </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                                         name="message"
                                         id="phone"
                                         placeholder="Enter your messages"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-primary border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                                        className="w-100 mt-2 py-3 px-3 bg-[#07072b] rounded-lg border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                                         rows={"7"}
                                         required
                                     />
@@ -107,7 +107,7 @@ const Contact = () => {
                                         className="group relative h-10 w-full md:w-40 overflow-hidden rounded-lg bg-white shadow mt-5 px-1 mx-1"
                                         type="submit"
                                     >
-                                        <div className="absolute inset-0 w-1 bg-secondary transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                                        <div className="absolute inset-0 w-1 bg-[#07072b] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                                         <span className="relative text-primary group-hover:text-white text-lg font-bold">
                                             Submit
                                         </span>

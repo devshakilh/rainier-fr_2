@@ -14,7 +14,7 @@ const Services = () => {
                 What I Do for My Clients
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
-                <div className="shadow-lg bg-[#3A2B71] text-center p-10 rounded-lg flex flex-col row-span-2 justify-center items-center py-10">
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg flex flex-col row-span-2 justify-center items-center py-10">
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <FaRegFileCode
                             style={{
@@ -37,7 +37,7 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <div className="shadow-lg bg-[#3A2B71] text-center p-10 rounded-lg  flex flex-col justify-center items-center py-10 ">
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg  flex flex-col justify-center items-center py-10 ">
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <RiCustomerService2Line
                             style={{
@@ -60,7 +60,7 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <div className="shadow-lg bg-[#3A2B71] text-center p-10 rounded-lg row-span-2 flex flex-col justify-center items-center py-10">
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg row-span-2 flex flex-col justify-center items-center py-10">
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <FiMonitor
                             style={{
@@ -83,7 +83,7 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <div className="shadow-lg bg-[#3A2B71] text-center p-10 rounded-lg  flex flex-col justify-center items-center py-10 ">
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg  flex flex-col justify-center items-center py-10 ">
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <FaChalkboardTeacher
                             style={{

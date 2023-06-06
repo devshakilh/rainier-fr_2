@@ -1,12 +1,12 @@
 import React from "react";
-
+import img from '../../assets/MD Shakil Hossain-5-fotor-bg-remover-20230606141248.png'
 const Banner = () => {
     return (
         <div>
             <div className="flex flex-col-reverse md:flex-row md:justify-between justify-center gap-10 items-center my-24">
                 <div className="md:w-1/2 w-full text-center md:text-start">
                     <h1 className="text-7xl text-white font-bold">
-                        Md Shakil <span className="text-secondary">Hossain</span>{" "}
+                        Md Shakil  <span className="text-secondary">Hossain</span>{" "}
                     </h1>
                     <p className="text-3xl font-bold mt-5"><span className="text-secondary text-4xl
                     ">MERN</span> Stack Junior Web Developer</p>
@@ -16,17 +16,17 @@ const Banner = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <div className="absolute inset-0 w-1 bg-secondary transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                            <div className="absolute inset-0 w-1 bg-[#07072b] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                             <span className="relative text-primary group-hover:text-white">
                                 See Resume!
                             </span>
                         </a>
                     </button>
                 </div>
-
+                {/* // src="https://i.ibb.co/pR1WFzL/boy.png" */}
                 <div className="md:w-96 md:h-96 w-full relative h-full rounded ">
                     <img
-                        src="https://i.ibb.co/pR1WFzL/boy.png"
+                        src={img}
                         alt="md-shakil-hossain"
                         className="rounded-full w-full h-full"
                     />

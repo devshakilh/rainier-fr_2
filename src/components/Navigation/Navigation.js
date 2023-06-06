@@ -67,7 +67,7 @@ const Navigation = () => {
                         </label>
                         <ul
                             tabIndex={0}
-                            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary border border-secondary rounded-box w-52 py-10"
+                            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-[#07072b] border border-secondary rounded-box w-52 py-10"
                         >
                             {navItems.map((navItem, index) => {
                                 const { link, name } = navItem;
@@ -172,7 +172,7 @@ const Navigation = () => {
                         <li className="rounded-full hover:text-secondary">
                             <a
                                 className="rounded-full"
-                                href="https://www.facebook.com/shakil11A"
+                                href="https://github.com/shakilla1"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -181,7 +181,7 @@ const Navigation = () => {
                         </li>
                     </ul>
                 </div>
-            </div >
+            </div>
         </>
     );
 };

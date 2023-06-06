@@ -24,9 +24,9 @@ function About() {
                     <div>
                         <p className="text-xl leading-relaxed">
                             Hello! My name is Md Shakil Hossain, From Barishal, Bangladesh. I am a MERN
-                            Stack web developer specializing in building React.js and nextjs WebApp. I enjoy
+                            Stack web developer specializing in building React.js WebApp. I enjoy
                             creating things that live on the internet. My interest in web
-                            development started back in 2021, I use Javascript, React.js, Next.js,Typescript,
+                            development started back in 2021, I use Javascript, React.js, Next.js,
                             Express, Node, Mongodb, Firebase and much more technology to create
                             high-end interactive experiences and products. Recently working on some
                             great and best projects.
@@ -38,7 +38,7 @@ function About() {
                             <div className="mx-auto">
                                 <div>
                                     <h3 className="text-xl font-bold">Name</h3>
-                                    <h5 className="font-thin">Md Shakil Hossian</h5>
+                                    <h5 className="font-thin">Md Shakil Hossain</h5>
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold">Email</h3>
@@ -51,7 +51,7 @@ function About() {
                             <div className="mx-auto">
                                 <div>
                                     <h3 className="text-xl font-bold">Phone</h3>
-                                    <h5 className="font-thin">+8801728178063 <br /> (WhatsApp)</h5>
+                                    <h5 className="font-thin">+8801728178063<br /> (WhatsApp)</h5>
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold">Address</h3>
