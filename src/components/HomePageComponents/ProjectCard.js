@@ -4,7 +4,7 @@ const ProjectCard = ({ project }) => {
     const { _id, name, img, live_link, frontend_link, server_link, features, project_type } =
         project || {};
     return (
-        <div className="shadow-lg bg-[#07072b] text-center p-5 rounded-lg flex flex-col justify-center items-center py-10">
+        <div className="shadow-lg bg-[#07072b] text-center p-5 rounded-lg flex flex-col justify-center items-center py-10" data-aos="flip-right">
             <div className="mt-3">
                 <h3 className="text-3xl font-bold text-white border-white px-3 rounded-3xl">
                     {name}

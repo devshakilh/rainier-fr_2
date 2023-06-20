@@ -6,7 +6,7 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 import './Banner.css'
 const Services = () => {
     return (
-        <div className="md:mt-20 mt-20 w-full">
+        <div className="md:mt-20 mt-20 w-full" data-aos="zoom-in-down">
             <h3 className="text- text-4xl ">
                 {"<"} Services {"/>"}
             </h3>

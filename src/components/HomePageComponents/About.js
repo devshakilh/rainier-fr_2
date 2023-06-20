@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 function About() {
     return (
-        <div className="mt-20">
+        <div className="mt-20" data-aos="fade-left">
             <h3 className="text- text-4xl ">
                 {"<"} Who Am I {"/>"}
             </h3>

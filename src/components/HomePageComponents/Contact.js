@@ -25,7 +25,8 @@ const Contact = () => {
     };
 
     return (
-        <div className="md:mt-20 mt-20 w-full">
+        <div className="md:mt-20 mt-20 w-full" data-aos="fade-up"
+            data-aos-duration="3000">
             <h3 className="text- text-4xl ">
                 {"<"} Contact {"/>"}
             </h3>
@@ -57,7 +58,7 @@ const Contact = () => {
                                         name="name"
                                         id="name"
                                         placeholder="Full Name"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                                        className="w-100 mt-2 input py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                                         required
                                     />
                                 </div>
@@ -70,7 +71,7 @@ const Contact = () => {
                                         name="email"
                                         id="name"
                                         placeholder="Email"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                                        className="w-100 mt-2 input py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                                         required
                                     />
                                 </div>
@@ -83,7 +84,7 @@ const Contact = () => {
                                         name="phone"
                                         id="phone"
                                         placeholder="Phone Number"
-                                        className="w-100 mt-2 py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                                        className="w-100 mt-2 input py-3 px-3 rounded-lg bg-[#07072b] border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                                         required
                                     />
                                 </div>
@@ -96,7 +97,7 @@ const Contact = () => {
                                         name="message"
                                         id="phone"
                                         placeholder="Enter your messages"
-                                        className="w-100 mt-2 py-3 px-3 bg-[#07072b] rounded-lg border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
+                                        className="w-100  mt-2 py-3 px-3 bg-[#07072b] rounded-lg border border-white text-white font-semibold focus:border-white focus:outline-none placeholder:text-gray-400"
                                         rows={"7"}
                                         required
                                     />

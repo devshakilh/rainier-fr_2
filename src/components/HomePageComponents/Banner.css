@@ -34,3 +34,44 @@
     background-clip: text;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+.input[type="text"]:focus {
+
+    box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+}
+
+
+/* 
+
+.image {
+    width: 20ch;
+    height: 20ch;
+    background: grey;
+    border-radius: 5px;
+    background-image: url('../../assets//MD\ Shakil\ Hossain-5-fotor-bg-remover-20230606141248.png');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 5px solid white;
+}
+
+.imagelg {
+    width: 45ch;
+    height: 45ch;
+    background: grey;
+    border-radius: 5px;
+    background-image: url('../../assets//MD\ Shakil\ Hossain-5-fotor-bg-remover-20230606141248.png');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 10px solid white;
+} */
+
+/* .image:hover {
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+} */

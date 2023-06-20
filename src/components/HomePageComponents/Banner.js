@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import img from '../../assets/MD Shakil Hossain-5-fotor-bg-remover-20230606141248.png'
 import './Banner.css'
 import Typewriter from 'typewriter-effect';
+import Three from "./Three";
+import 'aos/dist/aos.css'
+import AOS from 'aos'
+
+
 
 const Banner = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
     return (
         <div>
-            <div className="flex flex-col-reverse md:flex-row md:justify-between justify-center gap-10 items-center my-24">
-                <div className="md:w-1/2 w-full text-center md:text-start">
+
+            <div className="flex flex-col-reverse md:flex-row md:justify-between  justify-center gap-10 items-center my-24" data-aos="fade-right">
+                <div className="md:w-1/2 w-full text-center md:text-start"  >
                     <h1 className="text-6xl text-white font-bold text">
                         Md Shakil  <span className="text-secondary">Hossain</span>{" "}
                     </h1>
@@ -24,7 +33,7 @@ const Banner = () => {
                     /></p>
                     <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg font-bold shadow mt-5 px-1 lg:mt-12">
                         <a
-                            href="https://drive.google.com/file/d/1vAjo_uC6lw8T4ZgJe7B37y3pefvDNc00/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1yTNs3Lxgt5JuEkUmsuw8asc7ZrD7mw4G/view?usp=sharing"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -35,13 +44,15 @@ const Banner = () => {
                         </a>
                     </button>
                 </div>
+                {/* md:w-96 md:h-96 w-full h-full relative  rounded */}
                 {/* // src="https://i.ibb.co/pR1WFzL/boy.png" */}
-                <div className="md:w-96 md:h-96 w-full relative h-full rounded ">
+                <div className=" md:w-96 md:h-96 w-full h-full relative  rounded ">
                     <img
                         src={img}
                         alt="md-shakil-hossain"
                         className="rounded-md  w-full h-full box"
                     />
+
                 </div>
             </div>
         </div>
