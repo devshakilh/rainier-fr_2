@@ -7,7 +7,8 @@ import ImageAbout from '../../assets/pexels-amirali-beigi-792326.jpg'
 function About() {
     return (
         <div className="mt-20" >
-            <div data-aos="fade-top">
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
                 <h3 className="text- text-4xl ">
                     {"<"} Who Am I {"/>"}
                 </h3>

@@ -26,18 +26,22 @@ const Contact = () => {
 
     return (
         <div className="md:mt-20 mt-20 w-full" data-aos="fade-up"
-            data-aos-duration="3000">
+            data-aos-anchor-placement="center-bottom">
             <h3 className="text- text-4xl ">
                 {"<"} Contact {"/>"}
             </h3>
-            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase">
+            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase" >
                 I Want to Hear from You
             </h1>
-            <div className="relative flex items-start justify-center sm:items-center mt-10">
+            <div className="relative flex items-start justify-center sm:items-center mt-10" data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500">
                 <div className="max-w-6xl mx-auto">
                     <div className=" overflow-hidden">
                         <div className="grid grid-cols-1 md:grid-cols-2">
-                            <div className="md:p-6 mr-2 sm:rounded-lg">
+                            <div className="md:p-6 mr-2 sm:rounded-lg" data-aos="fade-right"
+                            >
                                 <img
                                     src="https://i.ibb.co/rZbkhYQ/contact-removebg-preview.png"
                                     alt=""
@@ -47,7 +51,8 @@ const Contact = () => {
                             <form
                                 className="md:p-6 flex flex-col justify-center"
                                 onSubmit={contactHandler}
-                                ref={formRef}
+                                ref={formRef} data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom"
                             >
                                 <div className="flex flex-col">
                                     <label htmlhtmlFor="name" className="hidden">

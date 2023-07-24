@@ -97,12 +97,16 @@ const Projects = ({ projects, isLoading, isError, error, slice }) => {
 
     return (
         <div className="md:mt-20 mt-20 w-full">
-            <h3 className="text- text-4xl ">
-                {"<"} Projects {"/>"}
-            </h3>
-            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase">
-                What I Did for my client
-            </h1>
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                <h3 className="text- text-4xl ">
+                    {"<"} Projects {"/>"}
+                </h3>
+                <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase">
+                    What I Did for my client
+                </h1>
+            </div>
+
 
             <Filter filterHandler={filterHandler} searchHandler={searchHandler} />
 

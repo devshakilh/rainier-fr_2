@@ -6,15 +6,19 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 import './Banner.css'
 const Services = () => {
     return (
-        <div className="md:mt-20 mt-20 w-full" data-aos="zoom-in-down">
-            <h3 className="text- text-4xl ">
-                {"<"} Services {"/>"}
-            </h3>
-            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase" >
-                What I Do for My Clients
-            </h1>
+        <div className="md:mt-20 mt-20 w-full" >
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                <h3 className="text- text-4xl ">
+                    {"<"} Services {"/>"}
+                </h3>
+                <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase" >
+                    What I Do for My Clients
+                </h1>
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10" >
-                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg flex flex-col row-span-2 justify-center items-center py-10" >
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg flex flex-col row-span-2 justify-center items-center py-10" data-aos="flip-down">
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <FaRegFileCode
                             style={{
@@ -37,7 +41,7 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg  flex flex-col justify-center items-center py-10 ">
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg  flex flex-col justify-center items-center py-10 " data-aos="zoom-in-down">
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <RiCustomerService2Line
                             style={{
@@ -50,7 +54,7 @@ const Services = () => {
                             }}
                         />
                     </div>
-                    <div className="mt-5">
+                    <div className="mt-5" >
                         <h3 className="text-3xl font-bold text-white border-white px-3 rounded-3xl">
                             {"Programming Support"}
                         </h3>
@@ -60,7 +64,7 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg row-span-2 flex flex-col justify-center items-center py-10">
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg row-span-2 flex flex-col justify-center items-center py-10" data-aos="flip-down">
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <FiMonitor
                             style={{
@@ -73,7 +77,7 @@ const Services = () => {
                             }}
                         />
                     </div>
-                    <div className="mt-5">
+                    <div className="mt-5" >
                         <h3 className="text-3xl font-bold text-white border-white px-3 rounded-3xl">
                             {"Web Design"}
                         </h3>
@@ -83,7 +87,8 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg  flex flex-col justify-center items-center py-10 ">
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg  flex flex-col justify-center items-center py-10 " data-aos="fade-up"
+                    data-aos-duration="2500">
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <FaChalkboardTeacher
                             style={{

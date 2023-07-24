@@ -13,7 +13,9 @@ const Filter = ({ filterHandler, searchHandler }) => {
         <div className="mt-10">
             <div className="flex flex-row flex-wrap justify-between items-center gap-5">
                 <ul className="flex flex-row gap-5 flex-wrap justify-center items-center">
-                    <li>
+                    <li data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <button
                             className={`border border-secondary rounded-lg text-secondary py-2 px-5 hover:text-white hover:bg-[#07072b] font-bold ${active === "All" ? "active-btn" : undefined
                                 }`}
@@ -26,7 +28,9 @@ const Filter = ({ filterHandler, searchHandler }) => {
                             All
                         </button>
                     </li>
-                    <li>
+                    <li data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1800">
                         <button
                             className={`border border-secondary rounded-lg text-secondary py-2 px-5 hover:text-white hover:bg-[#07072b] font-bold ${active === "Fullstack" ? "active-btn" : undefined
                                 }`}
@@ -39,7 +43,9 @@ const Filter = ({ filterHandler, searchHandler }) => {
                             Fullstack
                         </button>
                     </li>
-                    <li>
+                    <li data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="2100">
                         <button
                             className={`border border-secondary rounded-lg text-secondary py-2 px-5 hover:text-white hover:bg-[#07072b] font-bold ${active === "Frontend" ? "active-btn" : undefined
                                 }`}
@@ -52,7 +58,9 @@ const Filter = ({ filterHandler, searchHandler }) => {
                             Frontend
                         </button>
                     </li>
-                    <li>
+                    <li data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="2500">
                         <button
                             className={`border border-secondary rounded-lg text-secondary py-2 px-5 hover:text-white hover:bg-[#07072b] font-bold ${active === "Backend" ? "active-btn" : undefined
                                 }`}
@@ -65,7 +73,9 @@ const Filter = ({ filterHandler, searchHandler }) => {
                             Backend
                         </button>
                     </li>
-                    <li>
+                    <li data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="2900">
                         <button
                             className={`border border-secondary rounded-lg text-secondary py-2 px-5 hover:text-white hover:bg-[#07072b] font-bold ${active === "Design" ? "active-btn" : undefined
                                 }`}
@@ -79,7 +89,10 @@ const Filter = ({ filterHandler, searchHandler }) => {
                         </button>
                     </li>
                 </ul>
-                <div className="form-control">
+                <div className="form-control" data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="1500">
                     <input
                         type="text"
                         placeholder="Search by project's name"

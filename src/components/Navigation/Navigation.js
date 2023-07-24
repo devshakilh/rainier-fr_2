@@ -88,7 +88,7 @@ const Navigation = () => {
                                     <li className="hover:text-secondary mx-auto" key={index}>
                                         <Link
                                             to={link}
-                                            className={`font-poppins font-normal cursor-pointer text-[16px] ${active === name ? "text-white" : "text-dimWhite"
+                                            className={`font-poppins font-normal cursor-pointer text-[16px] ${active === name ? "text-white font-bold" : "text-dimWhite"
                                                 } ${index === navItem.length - 1 ? "mr-0" : "mr-10"}`}
                                             onClick={() => setActive(name)}
                                         >
@@ -147,10 +147,10 @@ const Navigation = () => {
                         {navItems.map((navItem, index) => {
                             const { link, name } = navItem;
                             return (
-                                <li className="hover:border-b-2 -blue-500">
+                                <li className="hover: -blue-500">
                                     <Link
                                         to={link}
-                                        className={`  ${active === name ? "border-b-2 rounded-none " : "text-dimWhite"
+                                        className={`  ${active === name ? " rounded-none font-bold text-white" : "text-dimWhite"
                                             } ${index === navItem.length - 1 ? "" : ""}`}
                                         onClick={() => setActive(name)}
                                     >
