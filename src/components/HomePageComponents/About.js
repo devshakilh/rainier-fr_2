@@ -1,25 +1,29 @@
 import React from "react";
 import { FaMedal } from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
+import ImageAbout from '../../assets/pexels-amirali-beigi-792326.jpg'
+
 
 function About() {
     return (
-        <div className="mt-20" data-aos="fade-left">
-            <h3 className="text- text-4xl ">
-                {"<"} Who Am I {"/>"}
-            </h3>
-            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text">
-                A Passionate Developer Who Loves to Code
-            </h1>
-            <div className="flex md:flex-row flex-col mt-10 justify-center items-center md:mt-20 gap-20">
-                <div className="md:w-1/2 ">
+        <div className="mt-20" >
+            <div data-aos="fade-top">
+                <h3 className="text- text-4xl ">
+                    {"<"} Who Am I {"/>"}
+                </h3>
+                <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text">
+                    A Passionate Developer Who Loves to Code
+                </h1>
+            </div>
+            <div className="flex md:flex-row flex-col mt-10 justify-center items-center md:mt-20 gap-20" >
+                <div className="md:w-1/2 " data-aos="fade-left">
                     <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0q_SpgzbhoTVP5UA1t7FBWqlycJd26HDwHQ&usqp=CAU"
-                        className="rounded-bl-full rounded-tr-full box"
+                        src={ImageAbout}
+                        className="rounded-bl-full rounded-tr-full box md:w-2/3"
                         alt=""
                     />
                 </div>
-                <div className="md:w-1/2 md:text-start">
+                <div className="md:w-1/2 md:text-start" data-aos="fade-right">
                     <h1 className="text-5xl w-full mx-auto text-white mb-5">About Me</h1>
 
                     <div>

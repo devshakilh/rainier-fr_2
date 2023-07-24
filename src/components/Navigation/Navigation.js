@@ -59,7 +59,7 @@ const Navigation = () => {
 
 
 
-            <div className="  navbar bg-none md:px-24 py-6 items-end"  data-aos="fade-down">
+            <div className="  navbar bg-none md:px-24 py-6 items-end"  >
                 <div className="navbar-start  ">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

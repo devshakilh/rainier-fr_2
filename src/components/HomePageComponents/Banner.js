@@ -15,8 +15,8 @@ const Banner = () => {
     return (
         <div>
 
-            <div className="flex flex-col-reverse md:flex-row md:justify-between  justify-center gap-10 items-center my-24" data-aos="fade-right">
-                <div className="md:w-1/2 w-full text-center md:text-start"  >
+            <div className="flex flex-col-reverse md:flex-row md:justify-between  justify-center gap-10 items-center my-24" >
+                <div className="md:w-1/2 w-full text-center md:text-start" data-aos="fade-down" >
                     <h1 className="text-6xl text-white font-bold text">
                         Md Shakil  <span className="text-secondary">Hossain</span>{" "}
                     </h1>
@@ -46,7 +46,7 @@ const Banner = () => {
                 </div>
                 {/* md:w-96 md:h-96 w-full h-full relative  rounded */}
                 {/* // src="https://i.ibb.co/pR1WFzL/boy.png" */}
-                <div className=" md:w-96 md:h-96 w-full h-full relative  rounded ">
+                <div className=" md:w-96 md:h-96 w-full h-full relative  rounded " data-aos="fade-right">
                     <img
                         src={img}
                         alt="md-shakil-hossain"

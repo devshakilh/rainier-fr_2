@@ -10,11 +10,11 @@ const Services = () => {
             <h3 className="text- text-4xl ">
                 {"<"} Services {"/>"}
             </h3>
-            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase">
+            <h1 className="md:text-5xl text-4xl font-bold md:w-2/3 w-full p-0 mx-auto text-white mt-5 text uppercase" >
                 What I Do for My Clients
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
-                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg flex flex-col row-span-2 justify-center items-center py-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10" >
+                <div className="shadow-lg bg-[#07072b] text-center p-10 rounded-lg flex flex-col row-span-2 justify-center items-center py-10" >
                     <div className="w-16 h-16 rounded-full bg-[#432D92] p-3 mt-5">
                         <FaRegFileCode
                             style={{
