@@ -7,6 +7,7 @@ import { usePostProjectsMutation } from "../../features/projects/projectsApi";
 import ProjectsPage from "../../pages/ProjectsPage";
 import { toast } from 'react-toastify';
 
+
 const AdminForm = () => {
     const [project, { data: updatedData, isLoading, error: responseError }] =
         usePostProjectsMutation();
@@ -217,7 +218,7 @@ const AdminForm = () => {
                 </form>
             </div>
 
-            <ProjectsPage />
+
         </div>
     );
 };
