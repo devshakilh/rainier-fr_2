@@ -5,6 +5,7 @@ import { skillsData } from "../../assets/skillsData";
 import AliceCarousel from "react-alice-carousel";
 import "scroll-carousel/dist/scroll.carousel.min.css";
 import './Banner.css'
+
 const Skills = () => {
 
 

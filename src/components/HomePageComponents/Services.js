@@ -36,8 +36,7 @@ const Services = () => {
                             {" Full-Stack Web Development"}
                         </h3>
                         <p className="mt-5 leading-9">
-                            Kobita tumi sopno charini hoye ersest labo met, consectetur adipi ctetur
-                            adipisicing eod tempor
+                            s a leading full stack development company, Brainvire has expertise in all the technologies from front-end to back-end. Our full stack development services
                         </p>
                     </div>
                 </div>
@@ -59,8 +58,7 @@ const Services = () => {
                             {"Programming Support"}
                         </h3>
                         <p className="mt-5 leading-9 md:leading-normal">
-                            Kobita tumi sopno charini hoye ersest labo met, consectetur adipi ctetur
-                            adipisicing eod tempor
+                            we develop, debug, and optimize code to effectively use resources improve code performance, and help you collaborate with users
                         </p>
                     </div>
                 </div>
@@ -82,8 +80,7 @@ const Services = () => {
                             {"Web Design"}
                         </h3>
                         <p className="mt-5 leading-9">
-                            Kobita tumi sopno charini hoye ersest labo met, consectetur adipi ctetur
-                            adipisicing eod tempor
+                            the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.
                         </p>
                     </div>
                 </div>
@@ -106,8 +103,7 @@ const Services = () => {
                             {"Teaching Web Development"}
                         </h3>
                         <p className="mt-5 leading-9 md:leading-normal">
-                            Kobita tumi sopno charini hoye ersest labo met, consectetur adipi ctetur
-                            adipisicing eod tempor
+                            ocus on the basics of HTML, CSS, and JavaScript, or explore more advanced topics such as frameworks, libraries, APIs, or databases.
                         </p>
                     </div>
                 </div>

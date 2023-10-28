@@ -29,7 +29,7 @@ export const skillsData = [
     },
     {
         img: "https://i.ibb.co/zNR3L58/css.png",
-        name: "Css3",
+        name: "Css",
     },
     {
         img: "https://i.ibb.co/mqKVWyF/bootstrap.png",
@@ -47,6 +47,10 @@ export const skillsData = [
     {
         img: "https://i.ibb.co/SJzJZRz/react.png",
         name: "React JS",
+    },
+    {
+        img: "https://i.ibb.co/RDmXY0t/nextjs.png",
+        name: "Next JS",
     },
     {
         img: "https://i.ibb.co/jfLnCtN/redux.png",
@@ -75,6 +79,18 @@ export const skillsData = [
     {
         img: "https://i.ibb.co/4SD2Ynn/mongodb.png",
         name: "MongoDB",
+    },
+    {
+        img: "https://i.ibb.co/7NvMmN6/postman-logo-vert-2018.jpg",
+        name: "PostMan",
+    },
+    {
+        img: "https://i.ibb.co/QcjTm1w/Postgresql.png",
+        name: "PostgresQl",
+    },
+    {
+        img: "https://i.ibb.co/HgH1YsY/Prisma.webp",
+        name: "Prisma",
     },
 
 ];

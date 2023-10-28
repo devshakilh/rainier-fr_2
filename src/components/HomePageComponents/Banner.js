@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-import img from '../../assets/MD Shakil Hossain-5-fotor-bg-remover-20230606141248.png'
+import img from '../../assets/Md Shakil  Hossain-.png'
 import './Banner.css'
 import Typewriter from 'typewriter-effect';
-import Three from "./Three";
 import 'aos/dist/aos.css'
 import AOS from 'aos'
 
@@ -20,8 +19,7 @@ const Banner = () => {
                     <h1 className="text-6xl text-white font-bold text">
                         Md Shakil  <span className="text-secondary">Hossain</span>{" "}
                     </h1>
-                    {/* <p className="text-3xl font-bold mt-5"><span className="text-secondary text-4xl
-                    ">MERN</span> Stack Junior Web Developer</p> */}
+
                     <p className='font=Oswald flex gap-2 text-2xl mt-5 font-bold lg:text-4xl '>I can do <Typewriter
                         options={{
                             strings: ['Frontend', 'MernStack', 'Backend', 'Fullstack'],
@@ -44,8 +42,7 @@ const Banner = () => {
                         </a>
                     </button>
                 </div>
-                {/* md:w-96 md:h-96 w-full h-full relative  rounded */}
-                {/* // src="https://i.ibb.co/pR1WFzL/boy.png" */}
+
                 <div className=" md:w-96 md:h-96 w-full h-full relative  rounded " data-aos="fade-right">
                     <img
                         src={img}
@@ -55,6 +52,10 @@ const Banner = () => {
 
                 </div>
             </div>
+
+
+
+
         </div>
     );
 };

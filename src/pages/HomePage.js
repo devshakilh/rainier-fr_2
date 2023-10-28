@@ -8,7 +8,8 @@ import Contact from "../components/HomePageComponents/Contact";
 import { Link } from "react-router-dom";
 import Footer from "../components/HomePageComponents/Footer";
 import { useGetProjectsQuery } from "../features/projects/projectsApi";
-import Three from "../components/HomePageComponents/Three";
+
+
 
 const HomePage = () => {
     const { data: projects, isLoading, isError, error } = useGetProjectsQuery();
