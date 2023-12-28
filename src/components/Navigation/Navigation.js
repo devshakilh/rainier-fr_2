@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { SiDatabricks } from "react-icons/si";
-import '../HomePageComponents/Banner.css'
+
 import { useRef, useState } from "react";
 
 import React from 'react';
@@ -14,7 +14,7 @@ import '../../App.css'
 
 const Navigation = () => {
     const [active, setActive] = useState("Home");
-
+  
 
     const navItems = [
         {
@@ -22,21 +22,11 @@ const Navigation = () => {
             name: "Home",
         },
         {
-            link: "/about",
-            name: "About",
+            link: "/course",
+            name: "Course",
         },
-        {
-            link: "/skills",
-            name: "Skills",
-        },
-        {
-            link: "/services",
-            name: "Services",
-        },
-        {
-            link: "/projects",
-            name: "Projects",
-        },
+        
+   
         {
             link: "/contact",
             name: "Contact",
@@ -60,7 +50,7 @@ const Navigation = () => {
 
 
 
-            <div className="  navbar bg-none md:px-24 py-6 items-end"  >
+            <div className="  navbar bg-none md:px-24 py-6 items-end bg-[#054bb4]"  >
                 <div className="navbar-start  ">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -104,51 +94,23 @@ const Navigation = () => {
                             </span>
 
                             <div className="flex justify-center items-center">
-                                <li className="rounded-full hover:text-secondary ">
-                                    <a
-                                        className="rounded-full font-bold text-3xl"
-                                        href="https://github.com/shakilla1"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <FaGithub />
-                                    </a>
-                                </li>
-                                <li className="rounded-full hover:text-secondary">
-                                    <a
-                                        className="rounded-full font-bold text-3xl"
-                                        href="https://www.linkedin.com/in/md-shakil-hossain-s/"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <FaLinkedinIn />
-                                    </a>
-                                </li>
-                                <li className="rounded-full hover:text-secondary">
-                                    <a
-                                        className="rounded-full font-bold text-3xl"
-                                        href="https://github.com/shakilla1"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <FaFacebookF />
-                                    </a>
-                                </li>
+                               <Link to='/login'>Login</Link>
                             </div>
                         </ul>
                     </div>
                     <Link to="/" className="cursor-pointer text text-xl flex items-end">
-                        <img src="https://i.ibb.co/jHbyW2c/p.png" alt="" className="w-16" />
-                        <span className="text-5xl font-bold">ort</span>
-                        <span className="text-5xl font-bold text-secondary">folio</span>
+                      
+                        <span className="text-5xl font-bold">Rainer</span>
+                        <span className="text-5xl font-bold text-secondary">It</span>
                     </Link>
+                   
                 </div>
                 <div className="navbar-center hidden lg:flex items-center">
                     <ul className="menu  rounded-none menu-horizontal px-1 items-center">
                         {navItems.map((navItem, index) => {
                             const { link, name } = navItem;
                             return (
-                                <li className="hover: -blue-500">
+                                <li className="hover: -blue-500 font-semibold">
                                     <Link
                                         to={link}
                                         className={`  ${active === name ? " rounded-none font-bold text-white" : "text-dimWhite"
@@ -163,36 +125,7 @@ const Navigation = () => {
 
                         <span className="mx-5 text-secondary">||</span>
 
-                        <li className="rounded-full hover:text-secondary">
-                            <a
-                                className="rounded-full"
-                                href="https://github.com/shakilla1"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FaGithub />
-                            </a>
-                        </li>
-                        <li className="rounded-full hover:text-secondary">
-                            <a
-                                className="rounded-full"
-                                href="https://www.linkedin.com/in/md-shakil-hossain-s/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FaLinkedinIn />
-                            </a>
-                        </li>
-                        <li className="rounded-full hover:text-secondary">
-                            <a
-                                className="rounded-full"
-                                href="https://github.com/shakilla1"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FaFacebookF />
-                            </a>
-                        </li>
+                        <Link to='/login' className="font-semibold hover:text-white active:#fff">Login</Link>
                     </ul>
                 </div>
             </div>

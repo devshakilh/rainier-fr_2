@@ -4,7 +4,7 @@ import AdminForm from "../components/AdminPageComponents/AdminForm";
 const AdminPage = () => {
     return (
         <div>
-            {/* <AdminForm /> */}
+            <AdminForm />
         </div>
     );
 };
